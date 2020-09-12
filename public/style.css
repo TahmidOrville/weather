@@ -1,0 +1,37 @@
+body{
+    background-image: url(./42684hd.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+form{
+    margin: 10% 0 0 40%;
+}
+#txt{
+    outline: none;
+    background-color: transparent;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border:2px solid rgb(94, 93, 93)
+}
+#btn{
+    border: none;
+    background-image: linear-gradient(to right,rgba(34, 80, 94, 0.979),rgb(0, 195, 255));
+    padding: 10px;
+    color: blanchedalmond;
+    border-radius: 20px;
+    outline: none;
+}
+#btn:active{
+    opacity: .7;
+}
+.sec{
+    margin-top: 7%;
+    margin-left: -15%;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(68, 67, 67);
+    width: 600px;
+}
+#lineo{
+    margin-left: 10%;
+}
