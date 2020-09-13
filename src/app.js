@@ -3,7 +3,7 @@ const app=express();
 const forecast=require('./utils/forecast');
 const geoMap=require('./utils/geoMap');
 const cors = require('cors')
-
+const port =process.env.PORT || 3000
 app.use(cors());
 app.get('/weather',(req,res)=>{
     
@@ -34,6 +34,6 @@ app.get('/weather',(req,res)=>{
 
 })
 
-app.listen(3000,()=>{
-    console.log('port 3000 run successfully');
+app.listen(port,()=>{
+    console.log('server is up to port '+port);
 })
